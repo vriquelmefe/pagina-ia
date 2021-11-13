@@ -80,7 +80,7 @@
             ></v-textarea>
 
             <vue-recaptcha :sitekey="sitekey"></vue-recaptcha>
-            <v-btn class="mr-4 mt-3" @click="enviar()" v-t="'contacto.boton'">
+            <v-btn class="mr-4 mt-3" block rounded elevation="8" @click="enviar()" v-t="'contacto.boton'">
             </v-btn>
           </v-form>
         </v-col>

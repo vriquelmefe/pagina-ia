@@ -1,10 +1,10 @@
 <template>
   <v-container  fluid>
     <Carousel />
-    <Soluciones />
-    <Nosotros class="mt-10 fondo" />
+    <Soluciones  />
+    <Nosotros class="mt-10 fondoNosotros" />
     <Tecnologias />
-    <Contacto  class="fondo-contacto"/>
+    <Contacto  class="fondo-contacto "/>
     <Footer class="fondo"/>
   </v-container>
 </template>
@@ -34,7 +34,7 @@ import Footer from '@/components/Footer.vue'
   }
 </script>
 <style scoped>
-.fondo{
+.fondoNosotros{
   background-color: #212121;
 }
 .fondo-contacto{
