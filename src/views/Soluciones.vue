@@ -3,6 +3,17 @@
     <h2 class="text-center" v-t="'soluciones.titulo'">
       <hr color="#66ff00" class="divisorServicios"/>
     </h2>
+    <br>
+    <br>
+    <div class="mx-4">
+
+    <h5 class="text-center" v-t="'soluciones.subtitulo'">
+      <hr color="#66ff00" class="divisorServicios"/>
+    </h5>
+    <h5 class="text-center" v-t="'soluciones.subtitulo2'">
+      <hr color="#66ff00" class="divisorServicios"/>
+    </h5>
+    </div>
     <!-- <transition name="transitionServicios" mode="in-out">  -->
 
     <v-container class="pt-16 px-4  justify-xl-space-between">

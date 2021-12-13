@@ -1,7 +1,7 @@
 <template>
   <div class="tarjetaGrande">
     <v-card class="mt-2 card-grande d-sm-flex flex-no-wrap ">
-      <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHt_GDPuWXUIapWV051zGUv2lRVMtLt90PQQ&usqp=CAU" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/DataExtaction.jpeg" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
       
       <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="3000">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_1'"></h3>
@@ -25,10 +25,10 @@
         ></v-card-subtitle>
        
       </div>
-      <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRzNGnBZXcZy8fbBLQvDkUf2noCI4PgbIwuQ&usqp=CAU" height="310px" class="ml-lg-14 imgcardGrande" data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/DemandForecasting.jpeg" height="310px" class="ml-lg-14 imgcardGrande" data-aos="zoom-in" data-aos-duration="1000"></v-img>
     </v-card>
     <v-card class="my-5 card-grande d-sm-flex flex-no-wrap my-14">
-      <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Me0aoCFNqTFbL3Z5HJmuPbt6WloG7UHZPQ&usqp=CAU" height="310px"  class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/Cluster2.jpeg" height="310px"  class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
       <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="3000">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_3'"></h3>
 
@@ -51,10 +51,10 @@
         ></v-card-subtitle>
         
       </div>
-      <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxeT8WBHoCfsRKbZQx82u9DcqYIpNsJRfJQ&usqp=CAU" height="310px" class="imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/Optimizacion.jpeg" height="310px" class="imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
     </v-card>
     <v-card class="my-5 card-grande d-sm-flex flex-no-wrap my-14">
-      <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlDVBZwe8aELUXh4xVTZ_99OR3jWaf4N7Dw&usqp=CAU" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/CustomModels.jpeg" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
       <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="3000">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_5'"></h3>
 
@@ -90,17 +90,23 @@ h2 {
   font-size: 2.1em;
 }
 .titulo-card{
-  font-size: 2rem;
+  font-size: 2em;
+  font-weight: 600;
   color: #212121;
   margin-bottom: 0.8rem;
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .texto-card {
   color: #212121;
   margin-left: 20px;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .texto-card-left{
   margin-right: 30px;
+  font-size: .5em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 p {
   color: #212121;
@@ -133,7 +139,7 @@ h2 {
     text-align: center;
   }
   .texto-card{
-    font-size: .7em;
+    font-size: .5em;
     text-align: justify;
     margin-left: 0;
   }
@@ -162,7 +168,7 @@ h2 {
     text-align: center;
   }
   .texto-card{
-    font-size: 1.2em;
+    font-size: .9em;
     text-align: justify;
     margin-left: 0;
   }

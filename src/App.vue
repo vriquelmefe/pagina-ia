@@ -45,7 +45,7 @@ export default {
 <style>
 html {
   scroll-behavior: smooth;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #212121;
 }
 </style>

@@ -1,4 +1,8 @@
 {
+  "carusel": {
+    "titulo": "Artificial intelligence",
+    "subtitulo": "At your fingertipso"
+  },
   "contacto": {
     "titulo": "Contact us",
     "info": "Enter your information to be able to communicate with us",
@@ -25,16 +29,19 @@
   "nosotros": {
     "titulo": "About us",
     "masinfo": {
-      "mas_1": "The most difficult capabilities to achieve are those that require interaction with environments that are not restricted or previously prepared.",
-      "mas_2": "Las capacidades más complicadas de alcanzar son aquellas que requieren interaccionar con entornos no restringidos ni previamente preparados.",
-      "mas_3": "Las capacidades más complicadas de alcanzar son aquellas que requieren interaccionar con entornos no restringidos ni previamente preparados."
+      "titulo_mas_1": "Jesús Ortíz",
+      "mas_1": "Researcher, Electronic Engineer and Ph.D (c) in Electronics, Universidad Santa María, Chile, with specialization in deep learning.",
+      "titulo_mas_2": "Ankush Pandey",
+      "mas_2": "Researcher, Information Technology Engineer, Rajkiya Engineering College, India. Specialization, as a developer in robotic process automation."
     }
   },
   "soluciones": {
-    "titulo" : "Solutions",
+    "titulo" : "Our Solutions",
+    "subtitulo": "We offer you technological solutions in the field of machine learning and deep learning at a reasonable price." ,
+    "subtitulo2": "We use your data to generate predictive models that add value to your business",
     "card": {
       "titulo_card_1": "Financial data extraction",
-      "titulo_card_2": "Demand prediction",
+      "titulo_card_2": "Demand Forecasting",
       "titulo_card_3": "Cluster",
       "titulo_card_4": "Optimization of processes",
       "titulo_card_5": "Custom models",
@@ -47,11 +54,12 @@
   },
   "links": {
     "inicio": "Home",
-    "contacto": "Contact",
+    "contacto": "Contact Us",
     "soluciones": "Solutions",
-    "nosotros": "About"
+    "nosotros": "About",
+    "enlaces": "Links"
   },
   "tecnologias": {
-    "btn-mas" : "Know more"
+    "btn-mas" : "See more"
   }
 }

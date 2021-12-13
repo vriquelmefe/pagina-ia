@@ -1,8 +1,8 @@
 <template>
-  <v-navigation-drawer v-model="drawer" right fixed temporary>
+  <v-navigation-drawer v-model="drawer" right fixed temporary class="background">
     <v-list class="mt-3">
       <v-list-item>
-              <v-btn exact class="pl-0" color="#5100d7" plain href="#nosotros" v-t="'nosotros.titulo'">
+              <v-btn exact class="pl-0" color="#5200d7" plain href="#nosotros" v-t="'nosotros.titulo'">
               
               </v-btn>
             </v-list-item>
@@ -10,7 +10,7 @@
               <v-btn
                 exact
                 class="pl-0"
-                color="#5100d7"
+                color="#5200d7"
                 plain
                 href="#soluciones"
                 v-t="'soluciones.titulo'"
@@ -18,7 +18,7 @@
               </v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn exact class="pl-0" color="#5100d7" plain href="#contacto" v-t="'contacto.titulo'">
+              <v-btn exact class="pl-0" color="#5200d7" plain href="#contacto" v-t="'contacto.titulo'">
               </v-btn>
             </v-list-item>
       <LocalSwitcher />
@@ -77,5 +77,10 @@ export default {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   
+}
+</style>
+<style>
+.background{
+  background-color: #212121;
 }
 </style>

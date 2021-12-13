@@ -5,9 +5,9 @@
         <v-container>
           <div class="d-wrap">
             <v-img
-              src="https://media.istockphoto.com/photos/artificial-intelligence-picture-id1147184161?k=20&m=1147184161&s=612x612&w=0&h=eY8rP4M5ucnGpuOqoZvmBkvQeCOoiMWSLx0G3Tytzxw="
-              height="150px"
-              width="150px"
+              src="@/assets/logo-neuraldata-cyan.svg"
+              height="168px"
+              width="180px"
               class="mx-auto"
             ></v-img>
             <v-card-text class="text-center">
@@ -22,7 +22,7 @@
                 class="mx-4 white--text"
                 icon
               >
-                <v-icon size="24px" color="#66FF00">
+                <v-icon size="24px" color="#5293ce">
                   {{ icon }}
                 </v-icon>
               </v-btn>
@@ -30,20 +30,21 @@
           </div>
         </v-container>
       </v-col>
-      <div class="mx-auto enlaces" cols="12" md="6">
+      <div class="mx-auto enlaces mt-5" cols="12" md="6">
         <v-col >
           <v-list sm="2" md="2"
-            >Enlaces
+            >
+            <h4 v-t="'links.enlaces'" color="#5293ce"></h4>
             <v-list-item>
-              <v-btn exact class="pl-0" color="#DBDBDB" plain href="#nosotros" v-t="'nosotros.titulo'">
+              <v-btn exact class="pl-0 text-capitalize" color="#f4f4f4" plain href="#nosotros" v-t="'nosotros.titulo'">
               
               </v-btn>
             </v-list-item>
             <v-list-item>
               <v-btn
                 exact
-                class="pl-0"
-                color="#DBDBDB"
+                class="pl-0 text-capitalize"
+                color="#f4f4f4"
                 plain
                 href="#soluciones"
                 v-t="'soluciones.titulo'"
@@ -51,7 +52,7 @@
               </v-btn>
             </v-list-item>
             <v-list-item>
-              <v-btn exact class="pl-0" color="#DBDBDB" plain href="#contacto" v-t="'contacto.titulo'">
+              <v-btn exact class="pl-0 text-capitalize" color="#f4f4f4" plain href="#contacto" v-t="'contacto.titulo'">
               </v-btn>
             </v-list-item>
           </v-list>
@@ -61,7 +62,7 @@
         <v-col class="d-flex enlacesServicios" cols="12" sm="4">
           <v-list>
 
-          <h4 v-t="'soluciones.titulo'"></h4>
+          <h4 v-t="'soluciones.titulo'" color="#5293ce"></h4>
           <v-list-item>
       <v-list-item-content>
         <v-list-item-title>{{ $t('soluciones.card.titulo_card_1') }}</v-list-item-title>
@@ -103,36 +104,18 @@ export default {
     icons: ["mdi-twitter", "mdi-linkedin", "mdi-instagram"],
     model: 1,
   }),
-  // computed:{
-  //   items: [
-  //     {
-  //       icon: "mdi-inbox",
-  //       text: this.$t('soluciones.card.titulo_card_1'),
-  //     },
-  //     {
-  //       icon: "mdi-star",
-  //       text: "Predicción de la demanda",
-  //     },
-  //     {
-  //       icon: "mdi-send",
-  //       text: "lustering segmentation",
-  //     },
-  //     {
-  //       icon: "mdi-email-open",
-  //       text: "Optimización de procesos",
-  //     },
-  //     {
-  //       icon: "mdi-email-open",
-  //       text: "Modelos personalizados",
-  //     },
-  //   ],
-  // }
 };
 </script>
 
 <style scoped>
 .enlaces {
   display: none;
+}
+h4{
+  color: #5293ce;
+}
+.v-list-item__title{
+  font-size: .9rem;
 }
 
 @media (min-width: 600px) {

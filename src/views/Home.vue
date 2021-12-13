@@ -5,7 +5,7 @@
     <Nosotros class="mt-10 fondoNosotros" />
     <Tecnologias />
     <Contacto  class="fondo-contacto "/>
-    <Footer class="fondo"/>
+    <Footer class="fondoNosotros"/>
   </v-container>
 </template>
 

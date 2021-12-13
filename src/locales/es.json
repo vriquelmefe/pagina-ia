@@ -1,4 +1,8 @@
-{
+{ 
+  "carusel": {
+  "titulo": "Inteligencia Artificial",
+  "subtitulo": "Al alcance de tu mano"
+  },
   "contacto": {
     "titulo": "Contáctanos",
     "info": "Ingresa tus datos para poder comunicarte con nosotros ",
@@ -25,13 +29,16 @@
   "nosotros": {
     "titulo": "Sobre nosotros",
     "masinfo": {
-      "mas_1": "Las capacidades más complicadas de alcanzar son aquellas que requieren interaccionar con entornos no restringidos ni previamente preparados.",
-      "mas_2": "Las capacidades más complicadas de alcanzar son aquellas que requieren interaccionar con entornos no restringidos ni previamente preparados.",
-      "mas_3": "Las capacidades más complicadas de alcanzar son aquellas que requieren interaccionar con entornos no restringidos ni previamente preparados."
+      "titulo_mas_1": "Jesús Ortíz",
+      "mas_1": "Investigador, Ingeniero Electrónico y Ph.D(c) en electrónica Universidad Santa María con especialización en aprendizaje profundo.",
+      "titulo_mas_2": "Ankush Pandey",
+      "mas_2": "Investigador, Ingeniero en tecnologías de la información, Rajkiya Engineering College , India. Especialización, como desarrollador en automatización robótica de procesos."
     }
   },
   "soluciones": {
-    "titulo" : "Soluciones",
+    "titulo" : "Nuestras Soluciones",
+    "subtitulo": "Te entregamos soluciones tecnológicas en el ámbito del aprendizaje automático y aprendizaje profundo a un precio razonable" ,
+    "subtitulo2": "Utilizamos tus datos para generar modelos predictivos que le den valor a tu negocio.",
     "card": {
       "titulo_card_1": "Extracción de datos financieros",
       "titulo_card_2": "Predicción de demanda",
@@ -47,11 +54,12 @@
   },
   "links": {
     "inicio": "Inicio",
-    "contacto": "Contacto",
+    "contacto": "Contáctanos",
     "soluciones": "Soluciones",
-    "nosotros": "Nosotros"
+    "nosotros": "Nosotros",
+    "enlaces": "Enlaces"
   },
   "tecnologias": {
-    "btn-mas" : "Conocer más"
+    "btn-mas" : "Ver más"
   }
 }

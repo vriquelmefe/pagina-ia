@@ -1,7 +1,7 @@
 <template>
     <div class="px-6">
         <v-card class="mx-auto card-chica mb-5 ">
-            <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHt_GDPuWXUIapWV051zGUv2lRVMtLt90PQQ&usqp=CAU"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/DataExtaction.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -17,7 +17,7 @@
             </div>
           </v-card>
           <v-card class="mx-auto card-chica mb-5">
-            <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRzNGnBZXcZy8fbBLQvDkUf2noCI4PgbIwuQ&usqp=CAU"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/DemandForecasting.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -33,7 +33,7 @@
             </div>
           </v-card>
           <v-card class="mx-auto card-chica mb-5">
-            <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Me0aoCFNqTFbL3Z5HJmuPbt6WloG7UHZPQ&usqp=CAU"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/Cluster2.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -49,7 +49,7 @@
             </div>
           </v-card>
            <v-card class="mx-auto card-chica mb-5">
-            <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxeT8WBHoCfsRKbZQx82u9DcqYIpNsJRfJQ&usqp=CAU"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/Optimizacion.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -64,7 +64,7 @@
             </div>
           </v-card>
            <v-card class="mx-auto card-chica ">
-            <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLlDVBZwe8aELUXh4xVTZ_99OR3jWaf4N7Dw&usqp=CAU"  data-aos="zoom-in" data-aos-duration="3000"></v-img>
+            <v-img src="@/assets/CustomModels.jpeg"  data-aos="zoom-in" data-aos-duration="3000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -91,13 +91,15 @@ h2 {
   font-size: 2.1em;
 }
 .titulo-card{
-  font-size: 1.1rem;
+  font-size: 1.1 em;
+  font-weight: 600;
   color: #212121;
   margin-bottom: 0.8rem;
   text-align: center;
 }
 .texto-card {
   color: #212121;
+  font-size: .7 em;
 }
 p {
   color: #212121;
