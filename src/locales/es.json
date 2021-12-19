@@ -30,24 +30,24 @@
     "titulo": "Sobre nosotros",
     "masinfo": {
       "titulo_mas_1": "Jesús Ortíz",
-      "mas_1": "Investigador, Ingeniero Electrónico y Ph.D(c) en electrónica Universidad Santa María con especialización en aprendizaje profundo.",
+      "mas_1": "Investigador, Ingeniero Electrónico y Ph.D(c) en Electrónica, Universidad Santa María Chile. Especialización en aprendizaje profundo.",
       "titulo_mas_2": "Ankush Pandey",
-      "mas_2": "Investigador, Ingeniero en tecnologías de la información, Rajkiya Engineering College , India. Especialización, como desarrollador en automatización robótica de procesos."
+      "mas_2": "Investigador, Ingeniero en tecnologías de la información, Rajkiya Engineering College , India. Desarrollador en automatización robótica de procesos."
     }
   },
   "soluciones": {
     "titulo" : "Nuestras Soluciones",
-    "subtitulo": "Te entregamos soluciones tecnológicas en el ámbito del aprendizaje automático y aprendizaje profundo a un precio razonable" ,
+    "subtitulo": "Entregamos soluciones tecnológicas en el ámbito de la inteligencia artificial al alcance de todos." ,
     "subtitulo2": "Utilizamos tus datos para generar modelos predictivos que le den valor a tu negocio.",
     "card": {
       "titulo_card_1": "Extracción de datos financieros",
-      "titulo_card_2": "Predicción de demanda",
-      "titulo_card_3": "Segmentación por clústeres",
+      "titulo_card_2": "Predicción de la demanda",
+      "titulo_card_3": "Segmentación",
       "titulo_card_4": "Optimización de procesos",
       "titulo_card_5": "Modelos personalizados",
-      "texto_card_1": "Extrae datos de documentos estructurados y no estructurados sin formato recopilados a través de imágenes y mejora tus procesos de extracción de datos de forma automatizada.",
+      "texto_card_1": "Le ofrecemos una solución comercial para automatizar la extracción de datos financieros. Trabajamos el texto impreso o escrito de un documento escaneado o archivo en imagen, para luego convertir el texto en un formato legible por máquina para utilizarlo en el procesamiento de datos, como la edición o la búsqueda.",
       "texto_card_2": "Predice la demanda de tus clientes y optimiza las decisiones de suministro y gestión de tu negocio. Utilizamos diferentes técnicas y marcos de desarrollo de aprendizaje automático y aprendizaje profundo para crear el mejor modelo de pronóstico de demanda.",
-      "texto_card_3": "Identifica noticias falsas, filtrar spam y personaliza tus estrategias de marketing segmentando a tus clientes. Seleccionamos el mejor algoritmo de agrupamiento que te permita descubrir automáticamente agrupaciones naturales de eventos, personas y objetos en grandes conjuntos de datos.",
+      "texto_card_3": "Identifica noticias falsas, filtra el spam y personaliza tus estrategias de marketing segmentando a tus clientes. Seleccionamos el mejor algoritmo de agrupamiento que te permita descubrir automáticamente agrupaciones naturales de eventos, personas y objetos en grandes conjuntos de datos.",
       "texto_card_4": "Optimiza los costos de tu negocio. Implementa inteligencia artificial para garantizar que los procesos de tu negocio sean los óptimos. Te ayudamos automatizando y disminuyendo el volumen de pasos manuales o ineficientes necesarios para preparar datos legibles.",
       "texto_card_5": "Creamos, entrenamos, testeamos e implementamos los mejores algoritmos de aprendizaje automático ajustado a las necesidades de tu negocio. Simplemente integre y aplique IA en sus soluciones en tiempo real."
     }
@@ -61,5 +61,8 @@
   },
   "tecnologias": {
     "btn-mas" : "Ver más"
+  },
+  "footer": {
+    "texto-footer": "Transmitir nuestra experiencia y promover la adopción de la IA en tu organización es transversal a todos nuestros objetivos."
   }
 }

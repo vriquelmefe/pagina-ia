@@ -33,7 +33,7 @@
 
             <div class="mb-2">
               <v-icon large color="#5293ce">mdi-email-outline</v-icon>
-              <span>IA@gmail.com</span>
+              <span>info@neuraldata.cl</span>
             </div>
           </div>
         </v-col>

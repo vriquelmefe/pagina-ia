@@ -90,16 +90,43 @@ export default {
 h2 {
   font-size: 2.1em;
 }
+@media (max-width: 369px) {
+  .titulo-card{
+    word-wrap: break-word;
+    font-size: .74em;
+  }
+  .texto-card{
+    font-size: .7em;
+  }
+}
+@media (min-width: 370px) and (max-width: 600px) {
+  .titulo-card{
+    word-wrap: break-word;
+    font-size: 1em;
+    justify-content: center;
+  }
+  .texto-card{
+    font-size: 1em;
+    text-align: justify;
+  }
+}
+/* @media (min-width: 671px) {
+  .texto-card{
+    font-size: 1.2em;
+  }
+} */
 .titulo-card{
   font-size: 1.1 em;
   font-weight: 600;
   color: #212121;
   margin-bottom: 0.8rem;
   text-align: center;
+  word-wrap: break-word;
 }
 .texto-card {
   color: #212121;
-  font-size: .7 em;
+  font-size: .74em;
+  text-align: justify;
 }
 p {
   color: #212121;

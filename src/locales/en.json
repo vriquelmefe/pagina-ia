@@ -30,22 +30,22 @@
     "titulo": "About us",
     "masinfo": {
       "titulo_mas_1": "Jesús Ortíz",
-      "mas_1": "Researcher, Electronic Engineer and Ph.D (c) in Electronics, Universidad Santa María, Chile, with specialization in deep learning.",
+      "mas_1": "Researcher, Electronic Engineer and Ph.D (c) in Electronics, Universidad Santa María, Chile. Specialization in deep learning.",
       "titulo_mas_2": "Ankush Pandey",
-      "mas_2": "Researcher, Information Technology Engineer, Rajkiya Engineering College, India. Specialization, as a developer in robotic process automation."
+      "mas_2": "Researcher, Information Technology Engineer, Rajkiya Engineering College, India. Developer in Robotic Process Automation (RPA)."
     }
   },
   "soluciones": {
     "titulo" : "Our Solutions",
-    "subtitulo": "We offer you technological solutions in the field of machine learning and deep learning at a reasonable price." ,
-    "subtitulo2": "We use your data to generate predictive models that add value to your business",
+    "subtitulo": "We offer technological solutions in the field of artificial intelligence for anyone who requires it." ,
+    "subtitulo2": "We use your data to generate predictive models that add value to your business.",
     "card": {
       "titulo_card_1": "Financial data extraction",
       "titulo_card_2": "Demand Forecasting",
-      "titulo_card_3": "Cluster",
+      "titulo_card_3": "Clustering",
       "titulo_card_4": "Optimization of processes",
       "titulo_card_5": "Custom models",
-      "texto_card_1": "Extract data from structured and unstructured raw documents collected through images and improve your data extraction processes in an automated way.",
+      "texto_card_1": "We offer you a business solution for automating financial data extraction from printed or written text from a scanned document or image file and then converting the text into a machine-readable form to be used for data processing like editing or searching.",
       "texto_card_2": "Predict your customer demand and optimize your business supply and management decisions. We use different machine learning and deep learning development techniques and frameworks to create the best demand forecasting model.",
       "texto_card_3": "Identify fake news, filter spam and personalize your marketing strategies by segmenting your customers. We selected the best clustering algorithm that enables you to automatically discover natural groupings of events, people, and objects in large data sets.",
       "texto_card_4": "Optimize your business costs. Implement artificial intelligence to ensure your business processes are optimal. We help you by automating and reducing the volume of manual or inefficient steps required to prepare readable data.",
@@ -61,5 +61,8 @@
   },
   "tecnologias": {
     "btn-mas" : "See more"
+  },
+  "footer": {
+    "texto-footer": "Passing our expertise and promoting the adoption of AI in your organization is transversal to all our objectives."
   }
 }

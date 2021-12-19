@@ -12,9 +12,7 @@
             ></v-img>
             <v-card-text class="text-center">
               <v-card-subtitle class=" text-center d-sm-block">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Consectetur pariatur culpa quam earum ratione illum corrupti sed
-                saepe
+                {{ $t('footer.texto-footer')}}
               </v-card-subtitle>
               <v-btn
                 v-for="icon in icons"

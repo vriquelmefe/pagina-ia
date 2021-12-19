@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="mt-15 banner">
-    <v-img src="@/assets/PagPrincipal.jpeg" alt="" class="img-fluid banner-img">
+    <v-img src="@/assets/Portada1.jpeg" alt="" class="img-fluid banner-img">
      <v-row
         align="end"
         class="fill-height"
@@ -24,7 +24,7 @@
   </div>
   <v-carousel hide-delimiters cycle class="mt-4 carrusel">
     <v-carousel-item
-      src="@/assets/portada2.jpeg"
+      src="@/assets/Portada1.jpeg"
       class="img-fluid"
     >
       <v-row
@@ -52,7 +52,7 @@
     </v-carousel-item>
 
     <v-carousel-item
-      src="@/assets/PagPrincipal.jpeg"
+      src="@/assets/portada2.jpeg"
       class="img-fluid"
     >
       <v-row
@@ -76,6 +76,33 @@
     </v-card-actions>
           </div>
       </v-row>
+    </v-carousel-item>
+    <v-carousel-item
+      src="@/assets/Portada3.jpeg"
+      class="img-fluid"
+    >
+      <v-row
+       class="fill-height ml-14"
+          align="center"
+          justify="start"
+      >
+      <div class="texto-carusel" >
+            <h1 color="#f4f4f4" class="tituloCarusel"> {{ $t('carusel.titulo')}}</h1>
+            <h3  class="mt-3" color="#f4f4f4">{{ $t('carusel.subtitulo')}}</h3>
+            <v-card-actions>
+      <v-btn
+        color="#5200d7"
+        dark
+        tile
+        class="pa-4 font-weight-bold"
+        href="#contacto"
+        v-t="'links.contacto'"
+      >
+      </v-btn>
+    </v-card-actions>
+          </div>
+      </v-row>
+      
     </v-carousel-item>
   </v-carousel>
   </div>

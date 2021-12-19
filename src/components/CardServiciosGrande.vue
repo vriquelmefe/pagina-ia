@@ -139,13 +139,14 @@ h2 {
     text-align: center;
   }
   .texto-card{
-    font-size: .5em;
+    font-size: 1em;
     text-align: justify;
     margin-left: 0;
   }
   .titulo-card{
     font-size: 1.2em;
     height: 50px;
+    text-align: center;
   }
   .card-grande{
     justify-content: space-around;
