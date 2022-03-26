@@ -15,13 +15,30 @@
                 {{ $t('footer.texto-footer')}}
               </v-card-subtitle>
               <v-btn
-                v-for="icon in icons"
-                :key="icon"
                 class="mx-4 white--text"
                 icon
+                href="https://twitter.com/neural_dataCL"
               >
                 <v-icon size="24px" color="#5293ce">
-                  {{ icon }}
+                  mdi-twitter
+                </v-icon>
+              </v-btn>
+              <v-btn
+                class="mx-4 white--text"
+                icon
+                href="https://www.linkedin.com/in/neural-data-720234229/"
+              >
+                <v-icon size="24px" color="#5293ce">
+                  mdi-linkedin
+                </v-icon>
+              </v-btn>
+              <v-btn
+                class="mx-4 white--text"
+                icon
+                href="https://www.instagram.com/neural_data/"
+              >
+                <v-icon size="24px" color="#5293ce">
+                  mdi-instagram
                 </v-icon>
               </v-btn>
             </v-card-text>

@@ -17,7 +17,7 @@
       "nombre_maximo": "Must be a maximum of 10 characters",
       "email_requerido": "E-mail is required",
       "email_invalido": "Invalid email eg: example@example.com",
-      "numero_requerido": "Your number is required",
+      "numero_requerido": "Your number is required (ex. 912345678)",
       "nombre-emp_requerido": "Your company name is required"
     },
     "alertas": {
@@ -29,10 +29,10 @@
   "nosotros": {
     "titulo": "About us",
     "masinfo": {
-      "titulo_mas_1": "Jesús Ortíz",
-      "mas_1": "Researcher, Electronic Engineer and Ph.D (c) in Electronics, Universidad Santa María, Chile. Specialization in deep learning.",
       "titulo_mas_2": "Ankush Pandey",
-      "mas_2": "Researcher, Information Technology Engineer, Rajkiya Engineering College, India. Developer in Robotic Process Automation (RPA)."
+      "mas_2": "Researcher, Information Technology Engineer, Rajkiya Engineering College, India. Developer in Robotic Process Automation (RPA).",
+      "titulo_mas_3" : "Sebastían Moya",
+      "mas_3": "Business & Administration, Data Scientist. Pontifical Catholic University of Valparaíso, Chile."
     }
   },
   "soluciones": {

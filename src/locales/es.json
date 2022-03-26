@@ -17,7 +17,7 @@
       "nombre_maximo": "Debe tener como máximo 10 caracteres",
       "email_requerido": "E-mail es requerido",
       "email_invalido": "E-mail inválido ej: ejemplo@ejemplo.com",
-      "numero_requerido": "Su numero es requerido",
+      "numero_requerido": "Su número es requerido (ej. 912345678)",
       "nombre-emp_requerido": "Su nombre de empresa es requerido"
     },
     "alertas": {
@@ -29,10 +29,10 @@
   "nosotros": {
     "titulo": "Sobre nosotros",
     "masinfo": {
-      "titulo_mas_1": "Jesús Ortíz",
-      "mas_1": "Investigador, Ingeniero Electrónico y Ph.D(c) en Electrónica, Universidad Santa María Chile. Especialización en aprendizaje profundo.",
       "titulo_mas_2": "Ankush Pandey",
-      "mas_2": "Investigador, Ingeniero en tecnologías de la información, Rajkiya Engineering College , India. Desarrollador en automatización robótica de procesos."
+      "mas_2": "Investigador, Ingeniero en Tecnologías de la Información, Rajkiya Engineering College , India. Desarrollador RPA, Automatización Robótica de Procesos.",
+      "titulo_mas_3" : "Sebastían Moya",
+      "mas_3": "Ingeniero Comercial & Data Scientist, Pontificia Universidad Católica de Valparaíso, Chile."
     }
   },
   "soluciones": {

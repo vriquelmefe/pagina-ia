@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer v-model="drawer" right fixed temporary class="background">
+  <v-navigation-drawer v-model="drawer" right fixed temporary class="background mr-3">
     <v-list class="mt-3">
       <v-list-item>
               <v-btn exact class="pl-0" color="#5200d7" plain href="#nosotros" v-t="'nosotros.titulo'">

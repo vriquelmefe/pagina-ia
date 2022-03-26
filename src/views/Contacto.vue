@@ -28,7 +28,7 @@
 
             <div class="mb-4">
               <v-icon large color="#5293ce">mdi-whatsapp</v-icon>
-              <span>+56 9 12345678</span> <br />
+              <span>+56934137463</span> <br />
             </div>
 
             <div class="mb-2">
@@ -62,7 +62,6 @@
             <v-text-field
               outlined
               v-model="phoneNumber"
-              :rules="numeroRequired"
               :label="$t('contacto.label.numero_empresa')"
               :placeholder="$t('contacto.label.numero_empresa')"
               required
@@ -104,6 +103,7 @@
 
 <script>
 import VueRecaptcha from "vue-recaptcha";
+import axios  from 'axios';
 export default {
   name: "Contacto",
   components: {
@@ -121,11 +121,26 @@ export default {
   }),
   methods: {
     procesarFormulario() {
+
       console.log(this.name)
       console.log(this.emailForm)
       console.log(this.phoneNumber)
       console.log(this.empresa)
       console.log(this.mensaje)
+        axios.post('https://neuraldata.cl/api/formulario.php',{
+          name: this.name,
+          emailForm: this.emailForm,
+          phoneNumber: this.phoneNumber,
+          empresa: this.empresa,
+          mensaje: this.mensaje
+        })
+        .then((response) => {
+          console.log(JSON.stringify(response))
+          alert(this.$t("contacto.alertas.envio_correcto"));
+        })
+        .catch((error) => 
+        // alert('ocurrío un problema, intenta nuevamente'), error)
+        console.log(JSON.stringify(error)))
       if (
         this.$refs.form) {
         this.formulario = {
@@ -143,6 +158,7 @@ export default {
       } else {
         alert(this.$t("contacto.alertas.datos_incompletos"));
       }
+
     },
     clear(){
       return (
@@ -179,14 +195,14 @@ export default {
       ];
       return emailRules;
     },
-    numeroRequired() {
-      const numeroEmpresa = [
-        (v) =>
-          /^(\+?56)?(\s?)(0?9)(\s?)[9876543]\d{7}$/.test(v) ||
-          this.$t("contacto.reglas.numero_requerido"),
-      ];
-      return numeroEmpresa;
-    },
+    // numeroRequired() {
+    //   const numeroEmpresa = [
+    //     (v) =>
+    //       /^(\+?56)?(\s?)(0?9)(\s?)[9876543]\d{7}$/.test(v) ||
+    //       this.$t("contacto.reglas.numero_requerido"),
+    //   ];
+    //   return numeroEmpresa;
+    // },
     nombreEmpresaRequired() {
       const empresaRules = [
         (v) => !!v || this.$t("contacto.reglas.nombre-emp_requerido"),

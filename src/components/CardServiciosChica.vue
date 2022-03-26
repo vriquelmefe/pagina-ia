@@ -1,7 +1,7 @@
 <template>
     <div class="px-6">
         <v-card class="mx-auto card-chica mb-5 ">
-            <v-img src="@/assets/DataExtaction.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/DataExtaction.jpeg"  data-aos="zoom-in" data-aos-duration="1000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -17,7 +17,7 @@
             </div>
           </v-card>
           <v-card class="mx-auto card-chica mb-5">
-            <v-img src="@/assets/DemandForecasting.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/DemandForecasting.jpeg"  data-aos="zoom-in" data-aos-duration="1000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -33,7 +33,7 @@
             </div>
           </v-card>
           <v-card class="mx-auto card-chica mb-5">
-            <v-img src="@/assets/Cluster2.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/Cluster2.jpeg"  data-aos="zoom-in" data-aos-duration="1000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -49,7 +49,7 @@
             </div>
           </v-card>
            <v-card class="mx-auto card-chica mb-5">
-            <v-img src="@/assets/Optimizacion.jpeg"  data-aos="zoom-in" data-aos-duration="2000"></v-img>
+            <v-img src="@/assets/Optimizacion.jpeg"  data-aos="zoom-in" data-aos-duration="1000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title
@@ -64,7 +64,7 @@
             </div>
           </v-card>
            <v-card class="mx-auto card-chica ">
-            <v-img src="@/assets/CustomModels.jpeg"  data-aos="zoom-in" data-aos-duration="3000"></v-img>
+            <v-img src="@/assets/CustomModels.jpeg"  data-aos="zoom-in" data-aos-duration="1000"></v-img>
 
             <div class="px-3 py-4">
               <v-card-title

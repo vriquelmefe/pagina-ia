@@ -1,9 +1,9 @@
 <template>
   <div class="tarjetaGrande">
     <v-card class="mt-2 card-grande d-sm-flex flex-no-wrap ">
-      <v-img src="@/assets/DataExtaction.jpeg" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/DataExtaction.jpeg" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1500"></v-img>
       
-      <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="3000">
+      <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="1500">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_1'"></h3>
 
         <v-card-subtitle
@@ -16,7 +16,7 @@
     <v-card class="my-5 card-grande d-sm-flex flex-no-wrap my-14">
       <div class="justify-center text-center body-card " data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="3000">
+     data-aos-duration="1500">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_2'"></h3>
 
         <v-card-subtitle
@@ -25,11 +25,11 @@
         ></v-card-subtitle>
        
       </div>
-      <v-img src="@/assets/DemandForecasting.jpeg" height="310px" class="ml-lg-14 imgcardGrande" data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/DemandForecasting.jpeg" height="310px" class="ml-lg-14 imgcardGrande" data-aos="zoom-in" data-aos-duration="1500"></v-img>
     </v-card>
     <v-card class="my-5 card-grande d-sm-flex flex-no-wrap my-14">
-      <v-img src="@/assets/Cluster2.jpeg" height="310px"  class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
-      <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="3000">
+      <v-img src="@/assets/Cluster2.jpeg" height="310px"  class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1500"></v-img>
+      <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="1500">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_3'"></h3>
 
         <v-card-subtitle
@@ -42,7 +42,7 @@
     <v-card class="my-5 card-grande d-sm-flex flex-no-wrap my-14">
       <div class="justify-center text-center body-card " data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="3000">
+     data-aos-duration="1500">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_4'"></h3>
 
         <v-card-subtitle
@@ -51,11 +51,11 @@
         ></v-card-subtitle>
         
       </div>
-      <v-img src="@/assets/Optimizacion.jpeg" height="310px" class="imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
+      <v-img src="@/assets/Optimizacion.jpeg" height="310px" class="imgcardGrande " data-aos="zoom-in" data-aos-duration="1500"></v-img>
     </v-card>
     <v-card class="my-5 card-grande d-sm-flex flex-no-wrap my-14">
-      <v-img src="@/assets/CustomModels.jpeg" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1000"></v-img>
-      <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="3000">
+      <v-img src="@/assets/CustomModels.jpeg" height="310px" class="mr-lg-14 imgcardGrande " data-aos="zoom-in" data-aos-duration="1500"></v-img>
+      <div class="justify-center text-center body-card " data-aos="fade-right" data-aos-duration="1500">
         <h3 class="titulo-card pt-5 pt-md-10 pb-5" v-t="'soluciones.card.titulo_card_5'"></h3>
 
         <v-card-subtitle
